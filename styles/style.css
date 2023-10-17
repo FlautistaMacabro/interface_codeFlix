@@ -40,7 +40,7 @@ header > img {
   display: flex;
   gap: 40px;
   height: 165px;
-  max-width: 815px; /* Apenas 700px não é espaço o bastante para a imagens com as bordas e os gaps */
+  max-width: 815px; /* Apenas 700px não é espaço o bastante para as imagens com as bordas e seus gaps */
 }
 
 #containerTitle > h1{
