@@ -39,7 +39,8 @@ header > img {
 #containerUsersImgs {
   display: flex;
   gap: 40px;
-  max-width: 1000px; /* Apenas 700px não é espaço o bastante para a imagens com as bordas e os gaps */
+  height: 165px;
+  max-width: 815px; /* Apenas 700px não é espaço o bastante para a imagens com as bordas e os gaps */
 }
 
 #containerTitle > h1{
@@ -53,7 +54,7 @@ header > img {
 }
 
 #usersTitle {
-  color: aliceblue;
+  color: white;
   font-family: Inter;
   font-weight: 400;
 }
@@ -62,17 +63,31 @@ header > img {
   background: none;
   border: none;
   background-color: black;
-  color: aliceblue;
+  color: white;
   font-family: Inter;
   font-weight: 300;
   font-size: 25px;
-  border: 2px solid aliceblue;
+  border: 2px solid white;
   border-radius: 10px;
   padding: 15px 45px 15px 45px;
+  transition: 300ms;
+}
+
+#usersButton:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
 }
 
 .usersImgs {
   width: 160px;
   height: 160px;
+  border: 3px solid black;
   border-radius: 15px;
+  transition: 300ms;
+}
+
+.usersImgs:hover {
+  border-color: white;
+  cursor: pointer;
 }
