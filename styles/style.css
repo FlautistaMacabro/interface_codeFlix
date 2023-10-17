@@ -25,6 +25,15 @@ header > img {
   max-width: 1200px;
 }
 
+#containerTitle {
+  display: flex;
+  justify-content: center;
+}
+
+#containerTitle > h1{
+  margin-top: 0;
+}
+
 #usersTitle {
   color: aliceblue;
   font-family: Inter;
